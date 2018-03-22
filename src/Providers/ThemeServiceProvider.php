@@ -1,5 +1,5 @@
 <?php
-namespace Theme\Providers;
+namespace Theme1\Providers;
 use Plenty\Plugin\ServiceProvider;
 
 class ThemeServiceProvider extends ServiceProvider
