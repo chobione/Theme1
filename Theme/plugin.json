@@ -1,16 +1,16 @@
 {
-  "name":"Theme1",
+  "name":"Theme",
   "description": "Basic theme plugin",
-  "namespace": "Theme1",
+  "namespace": "Theme",
   "author": "Tobi",
   "keywords": ["theme", "Ceres", "template"],
   "type": "theme",
   "require" : [],
-  "serviceProvider" : "Theme1\\Providers\\ThemeServiceProvider",
+  "serviceProvider" : "Theme\\Providers\\ThemeServiceProvider",
   "dataProviders":
   [
     {
-      "key" : "Theme1\\Containers\\ThemeContainer",
+      "key" : "Theme\\Containers\\ThemeContainer",
       "name" : "Dark Background",
       "description" : "Change the background colour of the Ceres template"
     }
